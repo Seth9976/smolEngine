@@ -1,0 +1,19 @@
+{  
+  "name": "smolengine",  
+  "version": "0.1.0",  
+  "dependencies": [  
+    "opengl",  
+    "glew",  
+    "glm",  
+    { "name": "devil", "features": ["libjpeg", "libpng"] },  
+    "assimp",  
+    "sdl2",  
+    {  
+      "name": "imgui",  
+      "features": ["opengl3-binding", "sdl2-binding", "docking-experimental"]  
+    }  
+  ],  
+  "overrides": [  
+    { "name": "imgui", "version": "1.89.9" }  
+  ]  
+}
